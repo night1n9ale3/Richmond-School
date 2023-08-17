@@ -1,0 +1,42 @@
+.column {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team {
+    height: 2500px;
+    max-width: 1440px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+@media screen and (max-width:800px) {
+    .team {
+        height: 4400px;
+    }
+
+    .column {
+        display: grid;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .team {
+        height: 4300px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .team {
+        height: 4250px;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .team {
+        height: 4200px;
+    }
+}
