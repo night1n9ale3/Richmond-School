@@ -125,6 +125,18 @@
     height: auto;
 }
 
+.footer-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:1150px) {
+    .footer-body {
+        display: grid;
+    }
+}
+
 @media screen and (max-width:1000px) {
 
     .aboutRStitle {
@@ -177,6 +189,10 @@
 @media screen and (max-width:767px) {
     .belowbar {
         display: block;
+    }
+
+    .services-column {
+        margin: auto;
     }
 }
 

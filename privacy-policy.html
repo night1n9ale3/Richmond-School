@@ -18,7 +18,7 @@
 <body class="bg-white dark:bg-gray-900">
     <header class="bg-white dark:bg-gray-900">
         <nav
-            class="navbar bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+            class="navbar bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-white">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
                 style="margin-top: -15px;">
                 <a href="index.html" class="flex items-center logo">
@@ -74,7 +74,8 @@
                         <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                         </div>
                     </div>
-                    <ul class="flex flex-col p-2 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <ul
+                        class="flex flex-col p-2 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
 
                         <li>
                             <a href="index.html"
@@ -139,16 +140,14 @@
         <div
             class="belowbar fixed bottom-0 left-0 z-50 w-full h-16 border-t border-gray-200 bg-white dark:bg-gray-700 dark:border-gray-600">
             <div class="grid h-full max-w-lg grid-cols-4 mx-auto font-medium">
-                <button type="button"
-                    class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group">
-                    <svg class="w-6 h-6 mb-1 text-gray-500 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-500"
-                        fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <button type="button" class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group">
+                    <svg class="w-6 h-6 mb-1 text-gray-500 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-500" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                         <path
                             d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z">
                         </path>
                     </svg>
-                    <a href="index.html" style="font-size: 13px;"
-                        class="text-gray-500 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-500">Главная</span>
+                    <span style="font-size: 13px;" class="text-gray-500 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-500">Главная</span>
                 </button>
                 <button type="button"
                     class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group">
@@ -159,7 +158,7 @@
                             d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001" />
                     </svg>
                     <a href="about.html" style="font-size: 13px;"
-                        class="text-gray-500 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-500">О
+                        class="text-sm text-gray-500 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-500">О
                         нас</a>
                 </button>
                 <button type="button"
@@ -218,10 +217,24 @@
             </div>
         </div>
     </header>
+    <main style="margin-top: 200px; height: auto;">
+        <h1 class="tracking-tight font-extrabold text-3xl text-center dark:text-white mb-4">Политика Конфиденциальности
+        </h1>
+        <div style="max-width: 400px; width: 100%; height: 10px; border-radius: 30px; margin: auto;"
+            class="bg-gray-200 dark:bg-gray-700"></div>
+        <p style="margin: auto; padding-top: 50px;" class="text-center text-gray-700 font-bold dark:text-gray-400">
+            Данная политика конфиденциальности описывает, как наш учебный центр собирает, использует и защищает любую
+            информацию, которую вы предоставляете нам при использовании нашего сайта и услуг. Мы стремимся соблюдать
+            вашу конфиденциальность и обеспечивать безопасность ваших персональных данных. Вся информация, которую мы
+            запрашиваем и собираем, будет использована в соответствии с этой политикой конфиденциальности.</p>
+        <h1 class="tracking-tight font-extrabold text-3xl text-center dark:text-white mb-4 mt-10">Собираемая информация</h1>
+        <div style="max-width: 400px; width: 100%; height: 10px; border-radius: 30px; margin: auto;"
+        class="bg-gray-200 dark:bg-gray-700"></div>
+    </main>
     <footer style="margin-top: 100px; font-family: 'Montserrat';">
         <hr>
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-            <div class="md:flex md:justify-between">
+            <div class="footer-body">
                 <div class="mb-6 md:mb-0">
                     <a href="index.html" class="flex items-center logo">
                         <img class="RS" src="./logo.png" alt="...">
